@@ -1,0 +1,19 @@
+.ft{
+  &-body{
+    position: relative;
+    height: 300px;
+    background-color: #363636;
+    margin-top: 80px;
+  }
+
+  &-bottom{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background-color: #333333;
+  }
+
+}
+

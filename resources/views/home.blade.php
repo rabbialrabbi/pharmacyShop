@@ -41,67 +41,6 @@
     </div>
 
 
-
-    <div class="ht-heading container">
-        <div class="ht-heading_text p-0"><h3>PRODUCT GELLARY</h3></div>
-        <hr>
-    </div>
-
-    <div class="ht-gallery container">
-
-        <div class="row">
-            <div class="col-3 pl-2">
-                <div class="ht-gallery_style">
-                    <img src="images/gallery/rooh-afza.jpg" alt="Rooh-afza">
-                    <h6>Rooh Afza</h6>
-                    <p>$20</p>
-
-                </div>
-
-            </div>
-            <div class="col-3 pl-2 ">
-                <div class="ht-gallery_style">
-                    <img src="images/gallery/hermin.jpg" alt="Hermin">
-                    <h6>Hermina</h6>
-                    <p>$20</p>
-
-                </div>
-
-            </div>
-            <div class="col-3  pl-2">
-                <div class="ht-gallery_style">
-                    <img src="images/gallery/safi.jpg" alt="Safi">
-                    <h6>Safi</h6>
-                    <p>$20</p>
-
-                </div>
-
-            </div>
-
-            <div class="col-3  pl-2">
-                <div class="ht-gallery_style">
-                    <img src="images/gallery/suline.jpg" alt="Suline">
-                    <h6>Suline</h6>
-                    <p>$20</p>
-
-                </div>
-
-            </div>
-
-            <div class="col-3  pl-2 pt-4">
-                <div class="ht-gallery_style">
-                    <img src="images/gallery/rooh-afza.jpg" alt="Rooh-afza">
-                    <h6>Rooh Afza</h6>
-                    <p>$20</p>
-
-                </div>
-
-            </div>
-
-        </div>
-        
-    </div>
-
     <div class="ht-heading container">
         <div class="ht-heading_text p-0"><h3>OUR VESION</h3></div>
         <hr>
@@ -120,7 +59,7 @@
                     </div>
                 </div>
             </div>
-             <div class="col-3 vision_child">
+            <div class="col-3 vision_child">
                 <div class="row p-3">
                     <div class="col-3">
                         <img src="images/icon2.png" alt="Free Deleviry">
@@ -131,7 +70,7 @@
                     </div>
                 </div>
             </div>
-             <div class="col-3 vision_child">
+            <div class="col-3 vision_child">
                 <div class="row p-3">
                     <div class="col-3">
                         <img src="images/icon3.png" alt="Free Deleviry">
@@ -142,7 +81,7 @@
                     </div>
                 </div>
             </div>
-             <div class="col-3 vision_child">
+            <div class="col-3 vision_child">
                 <div class="row p-3">
                     <div class="col-3">
                         <img src="images/icon4.png" alt="Free Deleviry">
@@ -157,4 +96,99 @@
 
     </div>
 
+
+
+    <div class="ht-heading container">
+        <div class="ht-heading_text p-0"><h3>PRODUCT GELLARY</h3></div>
+        <hr>
+    </div>
+
+    <div class="ht-gallery container">
+
+        <div class="row">
+
+            <div class="col-3 pl-2 ht-gallery_shadow">
+                <a href="/productdetails">
+                    <div class="ht-gallery_style">
+                        <img src="images/gallery/rooh-afza.jpg" alt="Rooh-afza">
+                        <h6>Rooh Afza</h6>
+                        <p>$20</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-3 pl-2 ">
+                <a href="">
+                    <div class="ht-gallery_style">
+                        <img src="images/gallery/hermin.jpg" alt="Hermin">
+                        <h6>Hermina</h6>
+                        <p>$20</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-3  pl-2">
+                <a href="">
+                    <div class="ht-gallery_style">
+                        <img src="images/gallery/safi.jpg" alt="Safi">
+                        <h6>Safi</h6>
+                        <p>$20</p>
+                    </div>
+            </div>
+            </a>
+
+            <div class="col-3  pl-2">
+                <a href="">
+                    <div class="ht-gallery_style">
+                        <img src="images/gallery/suline.jpg" alt="Suline">
+                        <h6>Suline</h6>
+                        <p>$20</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-3  pl-2 pt-4">
+                <a href="">
+                    <div class="ht-gallery_style">
+                        <img src="images/gallery/suline.jpg" alt="Suline">
+                        <h6>Suline</h6>
+                        <p>$20</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-3  pl-2 pt-4">
+                <a href="">
+                    <div class="ht-gallery_style">
+                        <img src="images/gallery/suline.jpg" alt="Suline">
+                        <h6>Suline</h6>
+                        <p>$20</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-3  pl-2 pt-4">
+                <a href="">
+                    <div class="ht-gallery_style">
+                        <img src="images/gallery/rooh-afza.jpg" alt="Rooh-afza">
+                        <h6>Rooh Afza</h6>
+                        <p>$20</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container ht-button">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"><button href="#">SHOW MORE</button></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+
+<div class="bottom_margin"></div>
 @endsection

@@ -1,7 +1,14 @@
+html{ height:100%; }
+
 body{
   font-family: lato ,Sans-serif ;
   margin: 0;
+  min-height:100%;
+  position:relative;
 }
+
+body::after{ content:''; display:block; height:100px; }
+
 .ht-link{
   background-color: lightgray ;
 
@@ -13,6 +20,11 @@ body{
     font-size: 12px;
 
   }
+
+  & a:hover{
+    color: #8FCD3A;
+  }
+
   & span{
     color: gray;
   }
@@ -38,29 +50,101 @@ body{
   & ul, li, form {
     display: inline-block;
   }
-}
-
-.ht-navbar{
-  background-color: #75b239;
-
-& ul{
-  padding: 0 2rem 0 2rem;
 
 }
 
+//.ht-navbar{
+//  background-color: #75b239;
+//
+//& ul{
+//  padding: 0 2rem 0 2rem;
+//
+//}
+//
+//
+//  & li{
+//    display: inline-block;
+//    padding: 2rem  2rem 2rem 0;
+//
+//  }
+//
+//  & a {
+//    text-decoration: none;
+//    color: white;
+//  }
+//}
 
-  & li{
-    display: inline-block;
-    padding: 2rem  2rem 2rem 0;
+.ht-nav{
+  position: relative;
+  background-color: #75B239;
+  text-align: center;
+
+  & ul{
+    display: inline-flex;
+    margin: 0;
+  }
+
+  & ul li{
+    width: 150px;
+    height: 80px;
+    padding-top: 30px ;
+    list-style: none;
 
   }
 
-  & a {
+  &_navbar{
+  }
+
+  & ul li:hover{
+    background-color: #336504;
+  }
+
+  & ul li a{
     text-decoration: none;
     color: white;
   }
 
+  & ul li ul{
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    top: 80px;
+    padding-left: 0;
+    z-index: 1;
+    color: black;
+  }
+  & ul li ul a{
+    color: black;
+  }
+
+  & ul li:hover ul{
+    display: block;
+    z-index: 1;
+  }
+
+  & ul li ul li:hover {
+    background-color: transparent;
+    border-left: 2px solid #336504;
+  }
+
+  & ul li ul li:hover a {
+    color: #336504;
+  }
+
+
+
+  &_submenu{
+
+  }
+
+
 }
+
+
+
+
+
+
 
 .ht-title{
   margin-top: 30px;

@@ -1,5 +1,4 @@
 .ht-slide{
-  margin-top: 40px;
 
   &_container {
     padding-left: 30px;
@@ -59,6 +58,12 @@
 
 .ht-gallery{
 
+  & a{
+    text-decoration: none;
+    color: black;
+  }
+
+
   &_style {
     position: relative;
     height: 400px;
@@ -78,6 +83,10 @@
       color: #75b239;
       margin-top: 30px;
     }
+  }
+
+  &_style:hover{
+  box-shadow: 0 0 10px;
   }
   }
 
@@ -103,5 +112,17 @@
       color: #666666;
 
     }
+  }
+}
+
+.ht-button{
+  margin-top: 80px;
+
+  & button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #75B239;
+    color: white;
   }
 }

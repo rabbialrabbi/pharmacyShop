@@ -13,7 +13,7 @@
         <div class="row">
 
             <div class="col-3 pl-2 ht-gallery_shadow">
-                <a href="#">
+                <a href="/productdetails">
                     <div class="ht-gallery_style">
                         <img src="images/gallery/rooh-afza.jpg" alt="Rooh-afza">
                         <h6>Rooh Afza</h6>
@@ -23,7 +23,7 @@
             </div>
 
             <div class="col-3 pl-2 ">
-                <a href="">
+                <a href="/productdetails">
                     <div class="ht-gallery_style">
                         <img src="images/gallery/hermin.jpg" alt="Hermin">
                         <h6>Hermina</h6>
@@ -33,7 +33,7 @@
             </div>
 
             <div class="col-3  pl-2">
-                <a href="">
+                <a href="/productdetails">
                     <div class="ht-gallery_style">
                         <img src="images/gallery/safi.jpg" alt="Safi">
                         <h6>Safi</h6>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-3  pl-2">
-                <a href="">
+                <a href="/productdetails">
                     <div class="ht-gallery_style">
                         <img src="images/gallery/suline.jpg" alt="Suline">
                         <h6>Suline</h6>
@@ -53,7 +53,7 @@
             </div>
 
             <div class="col-3  pl-2 pt-4">
-                <a href="">
+                <a href="/productdetails">
                     <div class="ht-gallery_style">
                         <img src="images/gallery/suline.jpg" alt="Suline">
                         <h6>Suline</h6>
@@ -63,7 +63,7 @@
             </div>
 
             <div class="col-3  pl-2 pt-4">
-                <a href="">
+                <a href="/productdetails">
                     <div class="ht-gallery_style">
                         <img src="images/gallery/suline.jpg" alt="Suline">
                         <h6>Suline</h6>
@@ -73,7 +73,7 @@
             </div>
 
             <div class="col-3  pl-2 pt-4">
-                <a href="">
+                <a href="/productdetails">
                     <div class="ht-gallery_style">
                         <img src="images/gallery/rooh-afza.jpg" alt="Rooh-afza">
                         <h6>Rooh Afza</h6>

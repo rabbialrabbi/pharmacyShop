@@ -46,9 +46,9 @@
     <ul>
         <li class="ht-nav_navbar"><a href="/">Home</a>
             <ul>
-                    <li><a href="/productlist">SubMenu-1</a></li>
-                    <li><a href="#">SubMenu-2</a></li>
-                    <li><a href="#">SubMenu-3</a></li>
+                    <li><a href="/productlist">Product</a></li>
+                    <li><a href="/productlist">Product</a></li>
+                    <li><a href="/productlist">Product</a></li>
             </ul>
         </li>
         <li class="ht-nav_navbar"><a href="#">About Us</a></li>
